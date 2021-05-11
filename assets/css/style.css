@@ -121,10 +121,20 @@ li:last-child {
   opacity: 0.9;
 }
 
-.faded {
-  opacity: 0.9;
+/* projects style */
+
+#projects img:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5); 
 }
 
+
+h3 {
+  text-align: center;
+}
+
+/* projects style end */
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
     left: 50%;
