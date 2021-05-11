@@ -16,6 +16,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    
 }
 
 /* header styles start */
@@ -33,6 +34,7 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
+
 }
 
 h1 {
@@ -81,51 +83,80 @@ a {
 
   /* header styles end */
 
-/* hero image start */
-/* .hero {
-  background-image: url("../images/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-
-  } */
-
-  /* hero image end */
-
-#main-bio {
-    width: 70%;
-}
-
-#contact-info {
-    width: 30%;
-}
-
-#bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-}
-
+/* container styles */
 .container {
     width: 1024px;
     margin: 0 auto;
+    justify-content: center;
+    display: flex;
 }
 
-#main-bio,
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: contain;
+  vertical-align:middle;
+}
+
+li:last-child {
+  flex-grow: 10;
+}
+/* #main-bio,
 #contact-info,
 #bio-image {
     float: left;
+} */
+#about{
+  background-color: white;
+  opacity: 0.9;
 }
 
+.faded {
+  opacity: 0.9;
+}
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
+  }
+}
+
+@media (max-aspect-ratio: 1/1) {
+  li {
+    height: 30vh;
+  }
+}
+
+@media (max-height: 480px) {
+  li {
+    height: 80vh;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  ul {
+    flex-direction: row;
+  }
+
+  li {
+    height: auto;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
   }
 }
