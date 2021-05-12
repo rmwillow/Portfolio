@@ -2,40 +2,108 @@
 <html lang="en-us">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Goblin+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
-    <title>Relative Paths</title>
-
-    <!-- This is an absolute path and will not work-->
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <title>Rachel McGraths Portfolio</title>
 </head>
 
-<body>
-<header>
-    <h1>Student Bio</h1>
-</header>
+<body class="loader">
+    <header class="headers">
+        <h1>Rachel McGrath</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
 
-<div class="container">
-    <section id="main-bio">
-        <h2>Your Name</h2>
+            </ul>
+        </nav>
+    </header>
 
-        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name" />
+    <br />​
+    <hr />​​​​​​​​​​​​​​​​​​​
+    <br />
 
-        <p>
-            Write a short paragraph or two about yourself, or use placeholder text
-            from <a href="http://www.lipsum.com/">www.lipsum.com</a>
+    <section id="about">
+        <h2><span>About</span></h2>
+        <img src="../portfolio/assets/images/circle-cropped.png" alt="girl smiling with dog smiling">
+        <p> My Name is Rachel McGrath. For work I am a Full Stack Software Developer.<br />
+            My goals are to one day build and own my own corporation. I would like to <br />
+            be abel to give back what was so freely given to me and help people in need. <br />
+            Give people second chances because someone did that for me. In my Free time <br />
+            I enjoy Kayaking, Weightlifting, spending time with family and my animals. <br />
+            Below you will find why I am the right fit for your company and team.
         </p>
     </section>
 
-    <section id="contact-info">
-        <h2>Contact Info</h2>
-        <ul>
-            <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-            <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-            <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-        </ul>
-    </section>
-</div>
-</body>
+    <br />​
+    <hr />
+    ​​​​​​​​​​​​​​​​​​​<br />
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <container class="container">
+            <ul>
+                <li>
+                    <a href="https://github.com/rmwillow/WorkoutDatabase">
+                        <h3>Workout Generator</h3>
+                        <img src="../portfolio/assets/images/pngegg.png" alt="male and female with dunbells in hand">
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://github.com/rmwillow/googlePotholes">
+                        <h3>Google Potholes</h3>
+                        <img src="../portfolio/assets/images/google.png" alt="symbol of google">
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://rmwillow.github.io/run-buddy/">
+                        <h3>Run Buddy</h3>
+                        <img src="../portfolio/assets/images/running.png" alt="guy running fast">
+                    </a>
+                </li>
+            </ul>
+        </container>
+    </section>
+
+    <br />​
+    <hr />
+    ​​​​​​​​​​​​​​​​​​​<br />
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <container class="container">
+            <ul>
+                <li>
+                    <a href="mailto:rachelmcgrath1994@gmail.com">
+                        <h3>Email</h3>
+                        <img src="../portfolio/assets/images/pnghut_email-icon-design-clip-art.png"
+                            alt="email envelop logo">
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://github.com/rmwillow">
+                        <h3>GitHub</h3>
+                        <img src="../portfolio/assets/images/favpng_github-gitlab.png" alt="symbol of Github">
+                    </a>
+                </li>
+            </ul>
+        </container>
+    </section>
+</body>
 </html>
