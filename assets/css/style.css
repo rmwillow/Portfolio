@@ -2,16 +2,21 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 body {
-  background-image: url("../images/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg");
+  background-image: url("../images/william-daigneault-Cd84YdL9px8-unsplash.jpg");
     padding: 25px;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    margin: auto 0;
+    font-family: 'Bebas Neue', cursive;
     line-height: 150%;
-    color: #333;
-    overflow:auto;
+    color: White;
+    overflow:auto 0;
     background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,24 +39,26 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
-
 }
+
+
 
 h1 {
     padding: 20px 0;
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
-    color: #936591;
+    color: white;
     text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+
+
 }
 
-h2 {
-    font-size: 24px;
-}
 
 a {
-    color: #936591;
+    color: white;
 }
 
 
@@ -89,6 +96,7 @@ a {
     margin: 0 auto;
     justify-content: center;
     display: flex;
+    
 }
 
 ul {
@@ -97,6 +105,7 @@ ul {
 }
 
 li {
+  padding: 25px;
   height: 40vh;
   flex-grow: 1;
 }
@@ -106,22 +115,49 @@ img {
   min-width: 100%;
   object-fit: contain;
   vertical-align:middle;
+  box-shadow: 0px 5px 5px 5px black;
+  background-color: #eac002;
+
 }
 
 li:last-child {
   flex-grow: 10;
 }
-/* #main-bio,
-#contact-info,
-#bio-image {
-    float: left;
-} */
-#about{
-  background-color: white;
-  opacity: 0.9;
+
+/* about styles start*/
+#about p {
+  text-align: center;
 }
 
-/* projects style */
+#about {
+  text-align: center;
+
+
+  box-shadow: 0px 5px 5px 5px #eac002;
+
+
+}
+
+/* about styles end */
+
+/* contact styles start */
+
+#contact {
+  /* padding: 5%; */
+}
+
+/* contact styles end */
+
+/* projects style start*/
+
+hr{ 
+  width:75%; 
+  height:2px; 
+  background-color:#cce1ec; 
+  border:none;}
+
+
+
 
 #projects img:hover {
 -ms-transform: scale(1.5); /* IE 9 */
@@ -129,6 +165,13 @@ li:last-child {
 transform: scale(1.5); 
 }
 
+li {
+  list-style: none;
+}
+
+h2 {
+  font-size: xx-large;
+}
 
 h3 {
   text-align: center;
