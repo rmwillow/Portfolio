@@ -137,6 +137,7 @@ container {
 
 container p {
     text-align: center;
+    padding: 15px;
 }
 
 ul {
@@ -171,6 +172,7 @@ li:last-child {
 #about p {
     padding-top: 25px;
     text-align: center;
+    font-size: 25px;
 }
 
 #about {
@@ -212,6 +214,7 @@ hr {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 15%;
 }
 
 #projects img:hover {
@@ -225,13 +228,25 @@ hr {
 h2 {
     font-size: xx-large;
     text-decoration: underline;
-    text-shadow: 2px 2px #eac002;
     padding-bottom: 15px;
 }
 
 h3,
 h4 {
     text-align: center;
+    font-size: 35px;
+}
+
+.pbacks {
+    background-color: rgb(190, 190, 187, 0.5);
+    font-size: 25px;
+}
+
+.dabout {
+    height: 200px;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
 }
 
 
@@ -275,6 +290,20 @@ h4 {
     container img {
         max-height: 15%;
         min-width: 15%;
+    }
+    .dabout,
+    .pbacks {
+        height: 15%;
+        width: 100%;
+        margin: auto;
+    }
+    /* .pbacks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    } */
+    #pmedia {
+        display: none;
     }
 }
 
