@@ -20,9 +20,13 @@ ______________________________________________________________________
 <br />
 
 ![About](https://user-images.githubusercontent.com/52016382/117997092-4db8d080-b308-11eb-8ed6-9400d16eac02.png)
+
 <br/>
+
 ![Projects](https://user-images.githubusercontent.com/52016382/117997209-65905480-b308-11eb-9bcd-5a673d8fed8b.png)
+
 <br/>
+
 ![Contact](https://user-images.githubusercontent.com/52016382/117997285-74770700-b308-11eb-8e23-16f409263f2c.png)
 
 
@@ -46,6 +50,7 @@ _________________________________________________________________________
 > For more information visit the site clicking here:[Rachel McGraths Portfolio](https://rmwillow.github.io/portfolio/)
 
 <br/>
+
 ## Built With
 * HTML
 * CSS
