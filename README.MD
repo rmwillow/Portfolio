@@ -1,13 +1,13 @@
 # Rachel McGraths Portfolio
 
-> **Purpose**
 
-## A website that displays about me and the work I have developed. 
+
+> **Purpose**: A website that displays about me and the work I have developed. 
 <br />
 <br />
 
-![Homepage](https://user-images.githubusercontent.com/52016382/117996788-10ecd980-b308-11eb-99e1-12eb72e877c5.png)
- Visit [My Portfolio](https://rmwillow.github.io/portfolio/)
+![Homepage](https://user-images.githubusercontent.com/52016382/119363988-0f120700-bc74-11eb-86f2-c261ce18f678.png)
+
 
 
 ______________________________________________________________________
@@ -20,15 +20,15 @@ ______________________________________________________________________
 <br />
 <br />
 
-![About](https://user-images.githubusercontent.com/52016382/117997092-4db8d080-b308-11eb-8ed6-9400d16eac02.png)
+![About](https://user-images.githubusercontent.com/52016382/119364063-23ee9a80-bc74-11eb-86bb-4303a2d882dc.png)
 
 <br/>
 
-![Projects](https://user-images.githubusercontent.com/52016382/117997209-65905480-b308-11eb-9bcd-5a673d8fed8b.png)
+![Projects](https://user-images.githubusercontent.com/52016382/119364113-32d54d00-bc74-11eb-92a4-9c71a08eb345.png)
 
 <br/>
 
-![Contact](https://user-images.githubusercontent.com/52016382/117997285-74770700-b308-11eb-8e23-16f409263f2c.png)
+![Contact](https://user-images.githubusercontent.com/52016382/119364166-3f59a580-bc74-11eb-92d5-438aa82f918c.png)
 
 
  _______________________________________________________________________
