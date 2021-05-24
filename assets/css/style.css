@@ -214,7 +214,7 @@ hr {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
 }
 
 #projects img:hover {
@@ -240,6 +240,7 @@ h4 {
 .pbacks {
     background-color: rgb(190, 190, 187, 0.5);
     font-size: 25px;
+    padding-bottom: 5%;
 }
 
 .dabout {
@@ -247,6 +248,10 @@ h4 {
     width: 40%;
     margin: auto;
     padding: 10px;
+}
+
+.linksCenter {
+    text-align: center;
 }
 
 
@@ -297,8 +302,13 @@ h4 {
         width: 100%;
         margin: auto;
     }
-    #pmedia {
+    #pmedia,
+    .linksCenter,
+    h4 {
         display: none;
+    }
+    li {
+        padding-top: 10%;
     }
 }
 
