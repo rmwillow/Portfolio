@@ -1,7 +1,8 @@
 # Rachel McGraths Portfolio
 
-> **Purpose** ## 
-A website that displays about me and the work I have developed. 
+> **Purpose**
+
+## A website that displays about me and the work I have developed. 
 <br />
 <br />
 
